@@ -1,0 +1,31 @@
+
+
+.überschrift-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24483a;
+    color: white;
+    padding: 40px;
+ }
+
+p {
+    font-size: 18px;
+}
+
+.bild-1 img{
+    max-width: 350px;
+    line-height: 1;
+    text-align: right;
+    padding-right: 50px;
+    height: auto;
+}
+
+.text {
+    width: 60%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
