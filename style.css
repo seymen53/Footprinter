@@ -29,3 +29,28 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.tabellen-text {
+    width: 32%;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #d6ddd4;
+    border-radius: 8px;
+}
+
+.tabellen-text h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.tabellen-inhalt {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.custom-tabelle thead tr {
+    text-align: left;
+    background-color: #24483a;
+    color: white;
+}
