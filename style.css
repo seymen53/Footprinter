@@ -30,6 +30,21 @@ body {
     padding: 0;
 }
 
+.tabellen-bereich {
+    width: 90%;
+    max-width: 1400px;
+    margin: 60px auto;
+}
+
+#suchfeld {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    border: 2px solid #24483a;
+    border-radius: 5px;
+}
+
 .tabellen-text {
     width: 32%;
     padding: 30px;
