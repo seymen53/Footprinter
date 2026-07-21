@@ -45,6 +45,12 @@ body {
     border-radius: 5px;
 }
 
+.tabellen-inhalt {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
 .tabellen-text {
     width: 32%;
     padding: 30px;
@@ -58,10 +64,25 @@ body {
     margin-bottom: 20px;
 }
 
+.tabellen-text p {
+    line-height: 1.6;
+}
+
+.table-responsive {
+    width: 68%;
+    overflow-x: auto;
+}
+
 .tabellen-inhalt {
     display: flex;
     align-items: flex-start;
     gap: 40px;
+}
+
+.custom-tabelle {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
 }
 
 .custom-tabelle thead tr {
