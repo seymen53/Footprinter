@@ -1,19 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+/*------ Navigation ------*/
+
+#navigation {
+    background-color: #24483a;
+    border-bottom: 2px solid black;
+    padding: 15px 25px;
+}
+
+.logo-bereich {
+    gap: 15px;
+}
+
+#navigation h1 {
+    color: coral;
+    margin: 0;
+}
+
+.bild-1 img {
+    max-width: 50px;
+    height: auto;
+}
+
+/*------ Überschrift Styling ------*/
 
 .überschrift-1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #24483a;
     color: white;
     padding: 40px;
+    min-height: 350px;
  }
 
 p {
     font-size: 18px;
 }
 
-.bild-1 img{
+/*------ Image Style ------*/
+
+.bild-2 img {
     max-width: 350px;
     line-height: 1;
     text-align: right;
