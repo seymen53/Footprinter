@@ -161,5 +161,34 @@
                 <a href="#">Datenschutz</a>
             </div>
     </footer>
+
+    <script>
+        const suchfeld = document.getElementById("suchfeld");
+
+        const tabellenZeilen = document.querySelectorAll(
+            ".custom-tabelle tbody tr"
+        );
+
+        suchfeld.addEventListener("input", function () {
+
+            const suchtext = suchfeld.value
+                .toLowerCase()
+                .trim();
+
+            tabellenZeilen.forEach(function (zeile) {
+
+                const zeilenInhalt = zeile.textContent
+                    .toLowerCase();
+
+                if (zeilenInhalt.includes(suchtext)) {
+                    zeile.style.display = "";
+                } else {
+                    zeile.style.display = "none";
+                }
+
+            });
+
+        });
+    </script>
 </body>
 </html>
