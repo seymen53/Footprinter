@@ -113,8 +113,17 @@ body {
     margin: 0;
 }
 
+.custom-tabelle th,
+.custom-tabelle td {
+    padding: 12px;
+}
+
 .custom-tabelle thead tr {
     text-align: left;
     background-color: #24483a;
     color: white;
+}
+
+.custom-tabelle tbody tr:nth-child(even) {
+    background-color: azure;
 }
