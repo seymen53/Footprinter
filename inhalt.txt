@@ -1,8 +1,0 @@
-Der 15. Commit umfasst Fehlerbehebungen und strukturelle Ergänzungen:
-
-- Navigationslinks mit den Seitenbereichen „Organisation“ und „Tabelle“ verknüpft
-- Neuen Abschnitt zur Vorstellung der Organisation „Footprinter“ ergänzt
-- Tabelle in einen responsiven Bootstrap-Container eingebunden
-- Bootstrap-Klasse „img-fluid“ für die responsive Darstellung des Titelbildes ergänzt
-- Fehlende HTML-Schließtags hinzugefügt
-- HTML-Code mit Prettier einheitlich formatiert und übersichtlicher strukturiert

@@ -127,3 +127,11 @@ body {
 .custom-tabelle tbody tr:nth-child(even) {
     background-color: azure;
 }
+
+.footer {
+    background-color: #24483a;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    margin-top: 60px;
+}
