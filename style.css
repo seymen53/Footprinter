@@ -135,3 +135,63 @@ body {
     text-align: center;
     margin-top: 60px;
 }
+
+/*------ LTR / RTL Darstellung ------*/
+
+html[dir="ltr"] {
+    direction: ltr;
+}
+
+html[dir="rtl"] {
+    direction: rtl;
+}
+
+.schrift-ltr {
+    text-align: left;
+}
+
+.schrift-rtl {
+    text-align: right;
+}
+
+/*------ Navigation zu RTL drehen ------*/
+.schrift-rtl #navigation {
+    flex-direction: row-reverse;
+}
+
+/*------ Navigationslinks zu RTL ------*/
+.schrift-rtl #navigation ul {
+    flex-direction: row-reverse;
+}
+
+/*------ Startbereich zu RTL ------*/
+.schrift-rtl .ueberschrift-1 {
+    flex-direction: row-reverse;
+}
+
+/*------ Tabellenbereich zu RTL ------*/
+.schrift-rtl .bereich-mit-lokalem-menue {
+    flex-direction: row-reverse;
+}
+
+/*------ Tabelleninhalt zu RTL ------*/
+.schrift-rtl .tabellen-inhalt {
+    flex-direction: row-reverse;
+}
+
+/*------ Suchfeld zu RTL ------*/
+.schrift-rtl #suchfeld {
+    direction: rtl;
+    text-align: right;
+}
+
+/*------ Tabelle zu RTL ------*/
+.schrift-rtl .custom-tabelle th,
+.schrift-rtl .custom-tabelle td {
+    text-align: right;
+}
+
+/*------ Footer zu RTL ------*/
+.schrift-rtl .footer {
+    text-align: right;
+}

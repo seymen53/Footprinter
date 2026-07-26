@@ -188,6 +188,33 @@
             });
 
         });
+
+         const schriftButton = document.getElementById("schriftButton");
+
+        schriftButton.addEventListener("click", function () {
+
+            const htmlElement = document.documentElement;
+
+            if (htmlElement.getAttribute("dir") === "ltr") {
+
+                htmlElement.setAttribute("dir", "rtl");
+
+                document.body.classList.remove("schrift-ltr");
+                document.body.classList.add("schrift-rtl");
+
+                schriftButton.textContent = "LTR";
+
+            } else {
+
+                htmlElement.setAttribute("dir", "ltr");
+
+                document.body.classList.remove("schrift-rtl");
+                document.body.classList.add("schrift-ltr");
+
+                schriftButton.textContent = "RTL";
+            }
+
+        });
     </script>
 </body>
 
