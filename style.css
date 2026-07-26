@@ -169,11 +169,6 @@ html[dir="rtl"] {
     flex-direction: row-reverse;
 }
 
-/*------ Tabellenbereich zu RTL ------*/
-.schrift-rtl .bereich-mit-lokalem-menue {
-    flex-direction: row-reverse;
-}
-
 /*------ Tabelleninhalt zu RTL ------*/
 .schrift-rtl .tabellen-inhalt {
     flex-direction: row-reverse;
